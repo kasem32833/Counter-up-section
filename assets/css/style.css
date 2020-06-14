@@ -1,0 +1,73 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+
+.section-bg-1{background-image: url(../img/section-bg-1.jpg);}
+
+.section-padding {
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.section-overlay {
+    position: relative;
+    z-index: 2;
+}
+
+.section-overlay:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #333;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+.single-countr-section {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.single-countr-section .fas {
+    font-size: 84px;
+}
+
+.single-countr-section h3 {
+    margin: 20px;
+}
