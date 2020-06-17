@@ -1,14 +1,8 @@
 
-
-    jQuery(document).ready(function($){
-      
-       $('.counter').counterUp({
-            delay: 0,
-            time: 5000
-        });  
-	
-
-
-    });
-    
+  jQuery(document).ready(function($) {
+            $('.count').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
  
